@@ -46,90 +46,72 @@ function turn() {
     currentPlayer === null || currentPlayer === void 0 ? void 0 : currentPlayer.innerHTML = `${currentP} turn`;
 }
 function verifyW(arr) {
-    let winner;
     if ((b1 === null || b1 === void 0 ? void 0 : b1.textContent) == 'X' && (b2 === null || b2 === void 0 ? void 0 : b2.textContent) == 'X' && (b3 === null || b3 === void 0 ? void 0 : b3.textContent) == 'X') {
         alert(`gano X`);
         all.forEach(i => { i.disabled = true; });
-        return winner = true;
     }
     else if ((b1 === null || b1 === void 0 ? void 0 : b1.textContent) == 'X' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'X' && (b9 === null || b9 === void 0 ? void 0 : b9.textContent) == 'X') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano X`);
-        return winner = true;
     }
     else if ((b1 === null || b1 === void 0 ? void 0 : b1.textContent) == 'X' && (b4 === null || b4 === void 0 ? void 0 : b4.textContent) == 'X' && (b7 === null || b7 === void 0 ? void 0 : b7.textContent) == 'X') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano X`);
-        return winner = true;
     }
     else if ((b3 === null || b3 === void 0 ? void 0 : b3.textContent) == 'X' && (b6 === null || b6 === void 0 ? void 0 : b6.textContent) == 'X' && (b9 === null || b9 === void 0 ? void 0 : b9.textContent) == 'X') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano X`);
-        return winner = true;
     }
     else if ((b2 === null || b2 === void 0 ? void 0 : b2.textContent) == 'X' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'X' && (b8 === null || b8 === void 0 ? void 0 : b8.textContent) == 'X') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano X`);
-        return winner = true;
     }
     else if ((b7 === null || b7 === void 0 ? void 0 : b7.textContent) == 'X' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'X' && (b3 === null || b3 === void 0 ? void 0 : b3.textContent) == 'X') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano X`);
-        return winner = true;
     }
     else if ((b7 === null || b7 === void 0 ? void 0 : b7.textContent) == 'X' && (b8 === null || b8 === void 0 ? void 0 : b8.textContent) == 'X' && (b9 === null || b9 === void 0 ? void 0 : b9.textContent) == 'X') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano X`);
-        return winner = true;
     }
     else if ((b4 === null || b4 === void 0 ? void 0 : b4.textContent) == 'X' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'X' && (b6 === null || b6 === void 0 ? void 0 : b6.textContent) == 'X') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano X`);
-        return winner = true;
     }
     else if ((b1 === null || b1 === void 0 ? void 0 : b1.textContent) == 'O' && (b2 === null || b2 === void 0 ? void 0 : b2.textContent) == 'O' && (b3 === null || b3 === void 0 ? void 0 : b3.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b1 === null || b1 === void 0 ? void 0 : b1.textContent) == 'O' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'O' && (b9 === null || b9 === void 0 ? void 0 : b9.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b1 === null || b1 === void 0 ? void 0 : b1.textContent) == 'O' && (b4 === null || b4 === void 0 ? void 0 : b4.textContent) == 'O' && (b7 === null || b7 === void 0 ? void 0 : b7.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b3 === null || b3 === void 0 ? void 0 : b3.textContent) == 'O' && (b6 === null || b6 === void 0 ? void 0 : b6.textContent) == 'O' && (b9 === null || b9 === void 0 ? void 0 : b9.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b2 === null || b2 === void 0 ? void 0 : b2.textContent) == 'O' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'O' && (b8 === null || b8 === void 0 ? void 0 : b8.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b7 === null || b7 === void 0 ? void 0 : b7.textContent) == 'O' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'O' && (b3 === null || b3 === void 0 ? void 0 : b3.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b7 === null || b7 === void 0 ? void 0 : b7.textContent) == 'O' && (b8 === null || b8 === void 0 ? void 0 : b8.textContent) == 'O' && (b9 === null || b9 === void 0 ? void 0 : b9.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b4 === null || b4 === void 0 ? void 0 : b4.textContent) == 'O' && (b5 === null || b5 === void 0 ? void 0 : b5.textContent) == 'O' && (b6 === null || b6 === void 0 ? void 0 : b6.textContent) == 'O') {
         all.forEach(i => { i.disabled = true; });
         alert(`gano O`);
-        return winner = true;
     }
     else if ((b1 === null || b1 === void 0 ? void 0 : b1.disabled) == true && (b2 === null || b2 === void 0 ? void 0 : b2.disabled) == true && (b3 === null || b3 === void 0 ? void 0 : b3.disabled) == true && (b4 === null || b4 === void 0 ? void 0 : b4.disabled) == true && (b5 === null || b5 === void 0 ? void 0 : b5.disabled) == true && (b6 === null || b6 === void 0 ? void 0 : b6.disabled) == true && (b7 === null || b7 === void 0 ? void 0 : b7.disabled) == true && (b8 === null || b8 === void 0 ? void 0 : b8.disabled) == true && (b9 === null || b9 === void 0 ? void 0 : b9.disabled) == true) {
         alert('tie!');
-        return winner = true;
     }
 }
 function cputurn(arr) {
