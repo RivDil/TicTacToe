@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Document</title>
+</head>
+<body>
+  <nav>
+    <span><a href="" id="homePage"><</a></span>
+    <div>
+      <h1>TicTacToe</h1>
+
+    </div>
+  </nav>
+  <main>
+    <section id="titles">
+      <div id="main-title-container">
+        <span>Choose your mode!</span>
+        <div id="main-title-buttons">
+          <button id="single">
+            Multiplayer
+          </button>
+          <button id="cpu">
+            Single Player
+          </button>
+        </div>
+      </div>
+
+      <section id="players" class="inactive">
+        <h2>
+          Player 1 = X,
+          Player 2 = O
+        </h2>
+      </section>
+    </section>
+
+    <section id="main-game" class="inactive">
+      <button id="div1" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div2" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div3" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div4" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div5" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div6" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div7" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div8" class="main-square--game inactive" value="" type="button"></button>
+      <button id="div9" class="main-square--game inactive" value="" type="button"></button>
+    </section>
+    <footer>
+      <h3 id="currentPlayer" class="inactive"></h3>
+      <button id="reload" class="inactive">Play Again?</button>
+    </footer>
+  </main>
+  <script src="dist/navigator.js"></script>
+  <script src="dist/index.js"> </script>
+</body>
+</html>

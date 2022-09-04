@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+#homePage{
+  padding-right: 50px;
+  color: white;
+  font-size: x-large;
+}
+h1{
+  margin-right: 80px;
+  display: flex;
+  font-family: monospace;
+}
+nav{
+  width: 60%;
+  margin: 0 auto;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main-title-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+#main-title-container span{
+  margin-top: 20px;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#main-title-buttons{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+#main-title-buttons button{
+  padding: 10px;
+  font-size: larger;
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+  border: 1px solid white;
+}
+#main-game{
+
+  height: 60vh;
+  width: 80%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-areas:
+    "div1 div2 div3"
+    "div4 div5 div6"
+    "div7 div8 div9";
+}
+.main-square--game{
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+h2{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+h3{
+
+  display: flex;
+  justify-content: center;
+}
+footer{
+  margin-top: 50px;
+}
+#reload{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+#div1{
+  grid-area: div1;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+#div2{
+  grid-area: div2;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+#div3{
+  grid-area: div3;
+  border-bottom: 2px solid white;
+
+}
+#div4{
+  grid-area: div4;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+#div5{
+  grid-area: div5;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+#div6{
+  grid-area: div6;
+  border-bottom: 2px solid white;
+}
+#div7{
+  grid-area: div7;
+  border-right: 2px solid white;
+}
+#div8{
+  grid-area: div8;
+  border-right: 2px solid white;
+}
+#div9{
+  grid-area: div9;
+}
+.inactive{
+  display: none;
+}
