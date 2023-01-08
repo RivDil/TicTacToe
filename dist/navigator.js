@@ -1,3 +1,5 @@
+
+
 let titles = document.querySelector('#titles');
 let menuChoose = document.querySelector('#main-title-container');
 let game = document.querySelector('#main-game');
@@ -48,10 +50,11 @@ function navigator(){
     currentPlayer.classList.add('inactive');
     players.classList.add('inactive');
     footer.classList.add('inactive');
+    home.classList.add('inactivev');
   }
 
   function multi(){
-    console.log('aqui');
+
     menuChoose.classList.add('inactive');
     game.classList.remove('inactive');
     all.forEach(i => {i.classList.remove('inactive')});
@@ -64,10 +67,11 @@ function navigator(){
     players.classList.remove('inactive');
     titles.classList.add('inactive');
     footer.classList.remove('inactive');
+    home.classList.remove('inactivev');
     twoPlayers();
   }
   function singleCpu(){
-    console.log('aqui2');
+
     menuChoose.classList.add('inactive');
     game.classList.remove('inactive');
     all.forEach(i => {i.classList.remove('inactive')});
@@ -80,6 +84,7 @@ function navigator(){
     players.classList.add('inactive');
     titles.classList.add('inactive');
     footer.classList.remove('inactive');
+    home.classList.remove('inactivev');
     cpuGame();
   }
   reload?.addEventListener('click', function again(){

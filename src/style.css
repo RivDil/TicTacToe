@@ -139,3 +139,6 @@ footer{
 .inactive{
   display: none;
 }
+.inactivev {
+  visibility: hidden;
+}
